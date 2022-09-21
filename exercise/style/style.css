@@ -1,4 +1,62 @@
 body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+  background-color: blue;
+}
+
+.navigation {
+  width: 20%;
+  max-width: 100px;
+  min-width: 70px;
+  background-color: aqua;
+}
+
+.main {
+  /* width: 60%; */
+  background-color: coral;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.tweets-sidebar-container {
+  background-color: cyan;
+  flex: 1;
+}
+
+.tweets-search-container {
+  height: 70px;
+  margin: 20px;
+  background-color: red;
+}
+
+.tweets-list {
+  height: 500px;
+  margin: 20px;
+  background-color: #516bf0;
+}
+
+.tweet-container {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  background-color: white;
+  margin: 10px;
+}
+
+.tweets-sidebar-container {
+  display: flex;
+}
+
+.tweets-sidebar {
+  width: 200px;
+  height: 500px;
+  margin: 20px;
+  background-color: bisque;
 }
